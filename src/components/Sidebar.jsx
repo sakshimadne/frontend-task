@@ -8,7 +8,7 @@ import { AiFillThunderbolt } from 'react-icons/ai'
 
 const SidebarContext = createContext()
 
-export default function Sidebar({ children }) {
+export default function Sidebar() {
   const [expanded, setExpanded] = useState(true)
   return (
     <>
