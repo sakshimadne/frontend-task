@@ -3,6 +3,7 @@ import { AiOutlineScissor } from 'react-icons/ai'
 import { CiVideoOn } from 'react-icons/ci'
 import { IoMicOutline } from 'react-icons/io5'
 import { SiPodcastindex } from 'react-icons/si'
+import { Link } from 'react-router-dom'
 
 const Dashboard = () => {
   return (
@@ -16,9 +17,9 @@ const Dashboard = () => {
             <AiOutlineScissor className='bg-purple-100 text-purple-600 text-4xl p-2  rounded' />
           </div>
           <div>
-            <button className='text-blue-500 font-semibold '>
+            <Link to={'/videoedit'} className='text-blue-500 font-semibold '>
               Create Project
-            </button>
+            </Link>
           </div>
         </div>
         <div className='bg-white rounded-lg shadow-md p-3 flex  mt-6  gap-6'>
