@@ -9,7 +9,7 @@ import { AiFillThunderbolt } from 'react-icons/ai'
 const SidebarContext = createContext()
 
 export default function Sidebar() {
-  const [expanded, setExpanded] = useState(true)
+  const [expanded] = useState(true)
   return (
     <>
       <aside className='h-screen'>

@@ -54,7 +54,7 @@ const Dashboard = () => {
       </div>
 
       <div className='mt-4 text-center'>
-        <a href='#' className='text-blue-500 font-semibold'>
+        <a href='/' className='text-blue-500 font-semibold'>
           See All &gt;
         </a>
       </div>
